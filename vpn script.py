@@ -72,6 +72,7 @@ for i in range(5):
 	ip = get_ip()
 	if ip != my_ip:
 		print("successfull")
+		break
 
-	time.sleep(10000)
-	kill_vpn()
+time.sleep(10000)
+kill_vpn()
